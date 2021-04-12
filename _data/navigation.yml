@@ -1,9 +1,9 @@
 main:
-  - title: "Posts"
+  - title: "Indlæg"
     url: /posts/
-  - title: "Categories"
+  - title: "Kategorier"
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "About"
+  - title: "Om KPA"
     url: /about/
