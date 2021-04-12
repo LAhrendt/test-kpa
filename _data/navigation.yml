@@ -3,7 +3,7 @@ main:
     url: /posts/
   - title: "Kategorier"
     url: /categories/
-  - title: "Tags"
+  - title: "Nøgleord"
     url: /tags/
   - title: "Om KPA"
     url: /about/
