@@ -122,21 +122,18 @@ prose:
     _posts:
       - name: "category"
         field:
-          element: "select"
-          label: "Vælg layout"
-          help: "Hvis du er i tvivl, så lad den være."
-          value: "single"
-          options:
-            - name: "Single"
-              value: "single"
-      - name: "layout"
-        field:
           element: "hidden"
-          value: ""
+          value: "blog"
       - name: "title"
         field:
           element: "text"
           label: "Titel"
+          value: ""
+      - name: "excerpt"
+        field:
+          element: "textarea"
+          label: "Kort beskrivelse"
+          help: "Skriv en kort beskrivelse/teaser for indlægget."
           value: ""
       - name: "date"
         field:
