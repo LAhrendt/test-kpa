@@ -141,10 +141,8 @@ prose:
           value: CURRENT_DATETIME
       - name: "published"
         field:
-          element: "button"
-          label: "Udgivet"
-          on: true
-          off: false
+          element: "hidden"
+          value: true
       - name: "splash"
         field:
           element: "text"
