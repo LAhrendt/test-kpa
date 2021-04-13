@@ -1,7 +1,7 @@
 ---
 published: true
 layout: blog
-category: blog
+category: single
 title: 'Post: Quote'
 date: 'Sun Apr 13 2021 02:00:00 GMT+0200 (Centraleuropæisk sommertid)'
 ---
