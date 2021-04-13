@@ -1,7 +1,9 @@
 ---
 published: true
+layout: blog
+category: blog
 title: 'Post: Quote'
-date: 2021-04-11T00:00:00.000Z
+date: 'Sun Apr 13 2021 02:00:00 GMT+0200 (Centraleuropæisk sommertid)'
 ---
 ## A New Post
 
