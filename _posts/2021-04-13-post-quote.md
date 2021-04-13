@@ -1,6 +1,7 @@
 ---
 published: true
 title: 'Post: Quote'
+date: 2021-04-11T00:00:00.000Z
 ---
 ## A New Post
 
