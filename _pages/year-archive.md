@@ -1,6 +1,7 @@
 ---
-title: "Posts by Year"
+title: Indlæg efter år
 permalink: /posts/
 layout: posts
-author_profile: true
+author_profile: false
+published: true
 ---
