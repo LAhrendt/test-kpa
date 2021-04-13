@@ -30,7 +30,7 @@ markdown                : kramdown
 remote_theme            : mmistakes/minimal-mistakes
 
 # Outputting
-permalink               : /blog/:year/:month/:title/
+permalink               : /:categories/:year/:month/:title/
 paginate                : 5 # amount of posts to show
 paginate_path           : /page:num/
 timezone                : Europe/Copenhagen
@@ -122,8 +122,13 @@ prose:
     _posts:
       - name: "category"
         field:
-          element: "hidden"
-          value: "blog"
+          element: "select"
+          label: "Vælg layout"
+          help: "Hvis du er i tvivl, så lad den være."
+          value: "single"
+          options:
+            - name: "Single"
+              value: "single"
       - name: "layout"
         field:
           element: "hidden"
