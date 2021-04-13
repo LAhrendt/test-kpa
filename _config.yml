@@ -155,6 +155,7 @@ prose:
           element: "multiselect"
           label: "Tilføj nøgleord"
           placeholder: "Choose Tags"
+          alterable: true
           options:
             - name: "Apples"
               value: "apples"
