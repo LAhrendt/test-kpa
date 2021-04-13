@@ -127,7 +127,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "blog"
+          value: ""
       - name: "title"
         field:
           element: "text"
