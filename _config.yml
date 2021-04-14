@@ -95,6 +95,7 @@ defaults:
       related: true
       show_date: true
       date_format: "%-d. %b %Y"
+      show_categories: false
   # _pages
   - scope:
       path: "_pages"
