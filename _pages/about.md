@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: About123
+title: Om KPA
 published: true
 ---
 

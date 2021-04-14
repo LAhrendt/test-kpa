@@ -1,7 +1,7 @@
 ---
-title: Posts by Tag
+title: Indlæg efter nøgleord
 permalink: /tags/
 layout: tags
-author_profile: true
+author_profile: false
 published: true
 ---
