@@ -24,6 +24,7 @@ github_username         : username
 minimal_mistakes_skin   : air
 search                  : true
 name                    : "KPA"
+#og_image                : "/assets/images/logo.png"  # Skal være min 120*120 og max 1 MB
 
 # Build settings
 markdown                : kramdown
@@ -68,6 +69,9 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: ""
 
 
 footer:
@@ -85,9 +89,10 @@ defaults:
       layout: single
       author_profile: false
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
+      date_format: "%-d. %b %Y"
   # _pages
   - scope:
       path: "_pages"
