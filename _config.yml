@@ -32,7 +32,7 @@ markdown                : kramdown
 remote_theme            : mmistakes/minimal-mistakes
 
 # Outputting
-permalink               : /:categories/:year/:month/:title/
+permalink               : /blog/:year/:month/:title/
 paginate                : 10 # amount of posts to show
 paginate_path           : /side:num/
 timezone                : Europe/Copenhagen
@@ -64,12 +64,10 @@ plugins:
 
 author:
   name   : "KPA author name"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://aarhus.kommunister.dk/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: ""
@@ -94,9 +92,6 @@ defaults:
       share: true
       related: true
       show_date: true
-      #date_format: "%-d/%-m %Y"
-      #show_categories: false
-      hide_categories: true
   # _pages
   - scope:
       path: "_pages"
@@ -128,6 +123,10 @@ prose:
         field:
           element: "text"
           label: "Titel"
+      - name: "forfatter"
+        field:
+          element: "text"
+          label: "Forfatter"
       - name: "excerpt"
         field:
           element: "textarea"
@@ -148,18 +147,3 @@ prose:
           element: "text"
           label: "Billede"
           help: "Billede i toppen af artiklen. "
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Tilføj nøgleord"
-          placeholder: "Choose Tags"
-          alterable: true
-          options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
-            - name: "Pears"
-              value: "pears"
-            - name: "Mangos"
-              value: "mangos"

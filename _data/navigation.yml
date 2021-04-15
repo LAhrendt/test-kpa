@@ -1,6 +1,8 @@
 main:
   - title: "Indlæg"
     url: /blog/
+  - title: "Alle indlæg"
+    url: /posts/
   - title: "Nøgleord"
     url: /tags/
   - title: "Om KPA"
