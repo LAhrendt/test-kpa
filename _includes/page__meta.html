@@ -8,7 +8,13 @@
       </span>
     {% endif %}
 
-    {% if document.forfatter and document.show_date and document.date %}<br>{% endif %}
+    {% if document.forfatter and document.show_date and document.date %}
+      {% if document.layout == "default" %}
+        <br>
+      {% else %}
+        <span class="page__meta-sep"></span>
+      {% endif %}
+    {% endif %}
 
     {% if document.show_date and document.date %}
       {% assign date = document.date %}
