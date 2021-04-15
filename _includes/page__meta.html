@@ -22,7 +22,7 @@
         <i class="far {% if include.type == 'grid' and document.read_time and document.show_date %}fa-fw {% endif %}fa-calendar-alt" aria-hidden="true"></i>
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
         <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time>
-        {% if document.last_modified_at %}
+        {% if document.last_modified_at and (layout == "default") %}
           {% assign last_modified_at = document.last_modified_at %}
           <span class="page__meta-sep"></span>
           {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}
@@ -32,7 +32,13 @@
     {% endif %}
 
 
-    {% if (document.forfatter or (document.show_date and document.date)) and document.read_time %}<br>{% endif %}
+    {% if (document.forfatter or (document.show_date and document.date)) and document.read_time %}
+      {% if document.layout == "default" %}
+        <br>
+      {% else %}
+        <span class="page__meta-sep"></span>
+      {% endif %}
+    {% endif %}
 
     {% if document.read_time %}
       {% assign words_per_minute = document.words_per_minute | default: site.words_per_minute | default: 200 %}
