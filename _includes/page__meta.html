@@ -1,5 +1,5 @@
 {% assign document = post | default: page %}
-{% assign document_layout_single = (document-layout == "single") %}
+{% assign document_layout_single = (document.layout == "single") %}
 {% if document.read_time or document.show_date or document.forfatter %}
   <p class="page__meta">
     {% if document.forfatter %}
