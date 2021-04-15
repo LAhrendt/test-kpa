@@ -77,7 +77,7 @@ da: &DEFAULT_DA
   toc_label                  : "På denne side"
   ext_link_label             : "Direkte link"
   less_than                  : "mindre end"
-  minute_read                : "minutters læsning"
+  minute_read                : "min. læsning"
   share_on_label             : "Del på"
   meta_label                 :
   tags_label                 : "Nøgleord:"
