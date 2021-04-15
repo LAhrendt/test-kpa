@@ -132,7 +132,7 @@ prose:
         field:
           element: "textarea"
           label: "Kort beskrivelse"
-          help: "Skriv evt. en kort beskrivelse/teaser for indlægget (ikke alt for langt)."
+          help: "Skriv evt. en kort beskrivelse/teaser for indlægget (gerne under 160 tegn)."
       - name: "date"
         field:
           element: "text"
