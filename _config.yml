@@ -32,8 +32,8 @@ markdown                : kramdown
 remote_theme            : mmistakes/minimal-mistakes
 
 # Outputting
-permalink               : /blog/:year/:month/:title/
-paginate                : 10 # amount of posts to show
+permalink               : /:year/:month/:day/:title/
+paginate                : 5 # amount of posts to show
 paginate_path           : /side:num/
 timezone                : Europe/Copenhagen
 locale                  : "da-DK"
@@ -100,12 +100,12 @@ defaults:
       layout: single
       author_profile: false
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+#category_archive:
+#  type: liquid
+#  path: /categories/
+#tag_archive:
+#  type: liquid
+#  path: /tags/
 
 # Prose.io
 prose:
@@ -115,10 +115,6 @@ prose:
   media: 'assets/images'
   metadata:
     _posts:
-      - name: "category"
-        field:
-          element: "hidden"
-          value: "blog"
       - name: "title"
         field:
           element: "text"

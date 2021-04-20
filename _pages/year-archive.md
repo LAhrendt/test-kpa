@@ -1,6 +1,6 @@
 ---
 title: Alle indlæg
-permalink: /posts/
+permalink: /indlaeg/
 layout: posts
 author_profile: false
 published: true

@@ -1,5 +1,5 @@
 ---
-permalink: /about/
+permalink: /om/
 title: Om KPA
 published: true
 ---

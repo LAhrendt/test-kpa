@@ -2,6 +2,6 @@ main:
   - title: "Hjem"
     url: /
   - title: "Alle indlæg"
-    url: /posts/
+    url: /indlaeg/
   - title: "Om KPA"
-    url: /about/
+    url: /om/
