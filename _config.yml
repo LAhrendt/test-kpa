@@ -23,7 +23,7 @@ url                     : "https://lahrendt.github.io"
 baseurl                 : "/test-kpa"
 #twitter_username        : username
 #github_username         : username
-minimal_mistakes_skin   : default
+minimal_mistakes_skin   : air
 search                  : true
 name                    : "KPA"
 #og_image                : "/assets/images/logo.png"  # Skal være min 120*120 og max 1 MB
