@@ -21,13 +21,11 @@ description             : >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 url                     : "https://lahrendt.github.io"
 baseurl                 : "/test-kpa"
-#twitter_username        : username
-#github_username         : username
 minimal_mistakes_skin   : "air"
 search                  : true
 name                    : "KPA"
 #og_image                : "/assets/images/logo.png"  # Skal være min 120*120 og max 1 MB
-date_format: "%-d/%-m %Y"
+date_format             : "%-d/%-m %Y"
 
 # Build settings
 markdown                : kramdown
@@ -39,6 +37,7 @@ paginate                : 5 # amount of posts to show
 paginate_path           : /side:num/
 timezone                : Europe/Copenhagen
 locale                  : "da-DK"
+words_per_minute        : 200
 
 include:
   - _pages
@@ -124,19 +123,13 @@ prose:
       - name: "excerpt"
         field:
           element: "textarea"
-          label: "Kort beskrivelse"
-          help: "Skriv evt. en kort beskrivelse/teaser for indlægget (gerne under 160 tegn)."
-      - name: "date"
-        field:
-          element: "text"
-          label: "Dato"
-          help: "Dato for udgivelse - skal angives. Format: YYYY-MM-DD."
-          value: CURRENT_DATETIME
+          label: "Kort uddrag"
+          help: "Skriv evt. et kort uddrag/opsummering af artiklen (gerne under 160 tegn)."
       - name: "last_modified_at"
         field:
           element: "text"
           label: "Dato for sidste ændring"
-          help: "Dato hvor artiklen er blevet ændret. Skal kun angives hvis artiklen faktisk er blevet ændret. Format: YYYY-MM-DD."
+          help: "Dato hvor artiklen sidst er blevet ændret. Skal kun angives hvis artiklen faktisk er blevet ændret. Format: YYYY-MM-DD."
       - name: "published"
         field:
           element: "hidden"
@@ -145,4 +138,4 @@ prose:
         field:
           element: "text"
           label: "Billede"
-          help: "Billede i toppen af artiklen. "
+          help: "Billede i toppen af artiklen. Skal starte med /assets/images/, fx /assets/images/IMG1234.jpg."
