@@ -1,7 +1,7 @@
 main:
   - title: "Hjem"
     url: /
-  - title: "Alle indlæg"
-    url: /indlaeg/
+  - title: "Alle artikler"
+    url: /artikler/
   - title: "Om KPA"
     url: /om/
