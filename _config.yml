@@ -121,10 +121,6 @@ prose:
         field:
           element: "text"
           label: "Titel"
-      - name: "forfatter"
-        field:
-          element: "text"
-          label: "Forfatter"
       - name: "excerpt"
         field:
           element: "textarea"
@@ -134,8 +130,13 @@ prose:
         field:
           element: "text"
           label: "Dato"
-          help: "Format: YYYY-MM-DD. Skal angives."
+          help: "Dato for udgivelse - skal angives. Format: YYYY-MM-DD."
           value: CURRENT_DATETIME
+      - name: "last_modified_at"
+        field:
+          element: "text"
+          label: "Dato for sidste ændring"
+          help: "Dato hvor artiklen er blevet ændret. Skal kun angives hvis artiklen faktisk er blevet ændret. Format: YYYY-MM-DD."
       - name: "published"
         field:
           element: "hidden"
