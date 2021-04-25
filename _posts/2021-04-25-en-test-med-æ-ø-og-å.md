@@ -1,6 +1,5 @@
 ---
 published: true
-date: '2021-03-25'
 title: En test med æ, ø og å
 ---
 En lille test.
