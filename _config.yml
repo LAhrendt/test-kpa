@@ -125,10 +125,6 @@ prose:
           element: "textarea"
           label: "Kort uddrag"
           help: "Skriv evt. et kort uddrag/opsummering af artiklen (gerne under 160 tegn)."
-      - name: "published"
-        field:
-          element: "hidden"
-          value: true
       - name: "splash"
         field:
           element: "text"
