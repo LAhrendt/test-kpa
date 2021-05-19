@@ -125,11 +125,6 @@ prose:
           element: "textarea"
           label: "Kort uddrag"
           help: "Skriv evt. et kort uddrag/opsummering af artiklen (gerne under 160 tegn)."
-      - name: "last_modified_at"
-        field:
-          element: "text"
-          label: "Dato for sidste ændring"
-          help: "Dato hvor artiklen sidst er blevet ændret. Skal kun angives hvis artiklen faktisk er blevet ændret. Format: YYYY-MM-DD."
       - name: "published"
         field:
           element: "hidden"

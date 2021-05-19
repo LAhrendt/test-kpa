@@ -1,5 +1,4 @@
 ---
-published: true
 title: En test med æ, ø og å
 ---
 En lille test.
