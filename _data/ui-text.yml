@@ -82,7 +82,7 @@ da: &DEFAULT_DA
   meta_label                 :
   tags_label                 : "Nøgleord:"
   categories_label           : "Kategorier:"
-  date_label                 : "opdateret"
+  date_label                 : "Opdateret "
   comments_label             : "Skriv en kommentar"
   comments_title             : "Kommentarer"
   more_label                 : "Lær mere"
